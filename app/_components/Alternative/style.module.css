@@ -1,0 +1,20 @@
+.label {
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(63 81 181 / 20%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.label:hover, .label:focus {
+    background-color: var(--primary);
+}
+
+.input {
+    display: none;
+}
