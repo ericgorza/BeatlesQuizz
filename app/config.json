@@ -1,9 +1,8 @@
 
-
 {
     "questions": [
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quando foi lançado o álbum Let it Be?",
             "description":"Considere apenas a data de lançamento.",
             "alternativas": [
@@ -15,7 +14,7 @@
             "answer": "1"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quando foi lançado o álbum Abbey Road?",
             "description":"Considere apenas a data de lançamento.",
             "alternativas": [
@@ -27,7 +26,7 @@
             "answer": "3"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quando foi lançado o single Hey Jude?",
             "description":"Considere apenas a data de lançamento.",
             "alternativas": [
@@ -39,9 +38,9 @@
             "answer": "0"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Qual é o nome completo da banda?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"Vamos ver se você é bom mesmo!",
             "alternativas": [
             "The Beatles",
             "The British Beatles",
@@ -51,9 +50,9 @@
             "answer": "0"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Em que cidade os Beatles nasceram?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"Essa é só para os fãs de verdade.",
             "alternativas": [
             "Berlim",
             "Manchester",
@@ -63,9 +62,9 @@
             "answer": "2"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quantos membros originais havia na banda?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"Power trio? Fab Four? Quantos eram?",
             "alternativas": [
             "3",
             "5",
@@ -75,9 +74,9 @@
             "answer": "2"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Qual membro dos Beatles foi conhecido como 'o quieto'?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"Essa é moleza!",
             "alternativas": [
             "John",
             "Paul",
@@ -87,9 +86,9 @@
             "answer": "3"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
-            "title":"Qual dos Beatles compôs 'Something'",
-            "description":"Considere apenas a data de lançamento.",
+            "image":"BeatlesBG.jpg",
+            "title":"Qual dos Beatles compôs 'Something'?",
+            "description":"Uma canção linda requer uma alma pura.",
             "alternativas": [
             "George",
             "Ringo",
@@ -99,9 +98,9 @@
             "answer": "0"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quem era o guitarrista principal da banda?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"3 guitarristas incríveis, mas quem era o lead?",
             "alternativas": [
             "John",
             "Paul",
@@ -111,9 +110,9 @@
             "answer": "2"
         },
         {
-            "image":"https://beatlesdaily.com/wp-content/uploads/2023/09/beat16.jpg",
+            "image":"BeatlesBG.jpg",
             "title":"Quem tocou o solo de The End?",
-            "description":"Considere apenas a data de lançamento.",
+            "description":"Essa é pra poucos.",
             "alternativas": [
             "John",
             "Paul + George",
@@ -124,8 +123,8 @@
         }
     ],
     "mensagens" : {
-        "correct":["Good job!","I see you', beatlemaniac!","Hell yeah!","Amazing!"],
-        "wrong":["Ooops, not this one!", "Almost!", "Try it again","Not really!"]
+        "correct":["Boa!","Que orgulho!","Hell yeah!","A beatlemania está viva!"],
+        "wrong":["Ooops!", "Errou!", "Quase!","Vamos dar uma estudada?"]
     }
 }
 

@@ -1,5 +1,5 @@
 .footer {
-    max-width: 350px;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     margin-top: 24px;
@@ -11,7 +11,7 @@
     text-align: center;
     background-color: var(--primary);
     padding: 10px 30px;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .footer p {

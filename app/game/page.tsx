@@ -38,7 +38,7 @@ const GameScreen = () => {
       const numeroDeTrue = userAnswers.filter(item => item === true).length;
       const numeroDeFalse = userAnswers.filter(item => item === false).length;
       alert("Você concluiu o teste." + ` Total de acertos: ${numeroDeTrue}` + ` Total de erros: ${numeroDeFalse}`);
-      router.push('/results');
+      router.push('/');
       setCurrentQuestion(0);
     }
   }, [userAnswers]);
@@ -68,7 +68,7 @@ const GameScreen = () => {
   }}
 
   return (
-    <main className={pageStyles.screen} style={{ flex: 1, backgroundImage: `url("${question.image}")`, }}>
+    <main className={pageStyles.screen} style={{ flex: 1, backgroundImage: `url("/images/${question.image}")`, }}>
       <section className={pageStyles.container}>
         <Logo />
         <Card headerTitle={`Pergunta ${questionNumber} de ${questions.length}`}>

@@ -1,5 +1,5 @@
 .screen {
-    background-image: url('/images/beat16.jpg');
+    background-image: url('/images/BeatlesPhone.jpg');
     background-size: cover;
     background-position: center center;
     padding-top: 40px;
@@ -9,7 +9,7 @@
 
 @media (min-width: 600px) {
     .screen {
-        background-image: url('/images/beat16.jpg');
+        background-image: url('/images/BeatlesBG.jpg');
         padding-top: 50px;
         padding-left: 10%;
         padding-right: 10%;
