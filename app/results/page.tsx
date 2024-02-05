@@ -3,25 +3,30 @@ import React from 'react'
 import Link from "next/link"
 import { Footer } from '../_components/Footer';
 import { Logo } from '../_components/LogoTop';
+import CardFinal from '../_components/CardFinal';
+
+import finalPageStyles from './finalpagestyles.module.css'
 
 const EndSreen = () => {
   return (
-    <main>
-        <div className='congrats-container'>
+    <main className={finalPageStyles.screen} style={{ flex : 1 }}>
+        <div className={finalPageStyles.container}>
             <div>
                 <Logo />
             </div>
-            <div>
-                <h1>Voce finalizou o jogo.</h1>
-                <p>De acordo com o seu Score, você é um beatlemaniac</p>
+            <CardFinal topTitle="Você finalizou o jogo" topText="Considerando o seu score você é um beatlemanico.">
+                <p>Os beatles com certeza foram a maior banda do mundo!</p>
+                <p>Com certeza temos muito o que aprender com eles!</p>
+                <p>Você conhece a carreira solo de George Harrisson?</p>
+                <p>Recomendo que assista o documentário "Get Back"</p>
                 <Link href="/game">
                     <button>
                         <span>Jogar Novamente</span>
                     </button>
                 </Link>
-            </div>
+            </CardFinal>
+            <Footer/>
         </div>
-        <Footer/>
     </main>
   )
 }

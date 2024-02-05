@@ -38,8 +38,17 @@ const GameScreen = () => {
       const numeroDeTrue = userAnswers.filter(item => item === true).length;
       const numeroDeFalse = userAnswers.filter(item => item === false).length;
       alert("Você concluiu o teste." + ` Total de acertos: ${numeroDeTrue}` + ` Total de erros: ${numeroDeFalse}`);
-      router.push('/');
-      setCurrentQuestion(0);
+      if(numeroDeTrue < 4){
+        router.push('/results/bad')
+        setCurrentQuestion(0);
+      }
+      else if (numeroDeTrue >= 4 && numeroDeTrue <= 7){
+        router.push('/results/medium')
+        setCurrentQuestion(0);
+      }
+      else{
+        router.push('/results');
+        setCurrentQuestion(0);}
     }
   }, [userAnswers]);
 
