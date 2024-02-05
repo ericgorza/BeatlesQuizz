@@ -6,20 +6,20 @@
 
 <h2>Features:</h2>
 
-Quiz: A collection of questions about The Beatles.
+<h3>Quiz:</h3> A collection of questions about The Beatles.
 
-Score Tracking: The player's score is calculated based on their answers.
+<h3>Score Tracking:</h3> The player's score is calculated based on their answers.
 
-Result Pages: Different result pages are displayed based on the final score.
+<h3>Result Pages:</h3> Different result pages are displayed based on the final score.
 
-Messages: Each result page presents a unique message corresponding to the player's final score.
+<h3>Messages:</h3> Each result page presents a unique message corresponding to the player's final score.
 
-**Tech Stack:**
+<h2>Tech Stack:</h2>
 
-Next.js: The project is built using Next.js, a React framework that enables server-side rendering and other powerful features.
+<h3>Next.js:</h3> The project is built using Next.js, a React framework that enables server-side rendering and other powerful features.
 
-TypeScript: TypeScript is used to add static types to JavaScript, enhancing code quality and developer experience.
+<h3>TypeScript:</h3> TypeScript is used to add static types to JavaScript, enhancing code quality and developer experience.
 
-React: The UI is developed using React, a JavaScript library for building user interfaces.
+<h3>React:</h3> The UI is developed using React, a JavaScript library for building user interfaces.
 
-CSS: Styling is applied using CSS or Styled Components for a clean and responsive design.
+<h3>CSS:</h3> Styling is applied using CSS or Styled Components for a clean and responsive design.
